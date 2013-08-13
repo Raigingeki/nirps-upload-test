@@ -1,0 +1,317 @@
+fileFormatVersion: 2
+guid: 1cd9947c81727cb439bfad6814461f5b
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: base
+    100002: body
+    100004: LizardAnkleBone001
+    100006: LizardAnkleBone002
+    100008: LizardHead
+    100010: LizardLLeg1
+    100012: LizardLLeg2
+    100014: LizardLLegAnkle
+    100016: LizardLLegAnkle1
+    100018: LizardLLegCalf
+    100020: LizardLLegPlatform
+    100022: LizardLLegPlatform 1
+    100024: LizardLLegThigh
+    100026: LizardNeck1
+    100028: LizardNeck2
+    100030: LizardPelvis
+    100032: LizardRibcage
+    100034: LizardRLeg1
+    100036: LizardRLeg2
+    100038: LizardRLegAnkle
+    100040: LizardRLegAnkle1
+    100042: LizardRLegCalf
+    100044: LizardRLegPlatform
+    100046: LizardRLegPlatform 1
+    100048: LizardRLegThigh
+    100050: LizardSpine
+    100052: //RootNode
+    100054: Plane001
+    100056: Plane001 1
+    100058: ref
+    100060: ref 1
+    400000: base
+    400002: body
+    400004: LizardAnkleBone001
+    400006: LizardAnkleBone002
+    400008: LizardHead
+    400010: LizardLLeg1
+    400012: LizardLLeg2
+    400014: LizardLLegAnkle
+    400016: LizardLLegAnkle1
+    400018: LizardLLegCalf
+    400020: LizardLLegPlatform
+    400022: LizardLLegPlatform 1
+    400024: LizardLLegThigh
+    400026: LizardNeck1
+    400028: LizardNeck2
+    400030: LizardPelvis
+    400032: LizardRibcage
+    400034: LizardRLeg1
+    400036: LizardRLeg2
+    400038: LizardRLegAnkle
+    400040: LizardRLegAnkle1
+    400042: LizardRLegCalf
+    400044: LizardRLegPlatform
+    400046: LizardRLegPlatform 1
+    400048: LizardRLegThigh
+    400050: LizardSpine
+    400052: //RootNode
+    400054: Plane001
+    400056: Plane001 1
+    400058: ref
+    400060: ref 1
+    2300000: Plane001
+    2300002: Plane001 1
+    2300004: ref
+    2300006: ref 1
+    3300000: Plane001
+    3300002: Plane001 1
+    3300004: ref
+    3300006: ref 1
+    4300000: body
+    4300002: ref
+    4300004: Plane001
+    4300006: ref
+    4300008: Plane001
+    7400000: Death
+    7400002: Idle
+    7400004: Attack
+    7400006: Walk
+    7400008: AoE
+    7400010: AoE2
+    7400012: Attack1
+    7400014: Attack2
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: body
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations:
+    - name: Death
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 150
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: Idle
+      takeName: Take 001
+      firstFrame: 160
+      lastFrame: 230
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: Attack
+      takeName: Take 001
+      firstFrame: 241
+      lastFrame: 359
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: Walk
+      takeName: Take 001
+      firstFrame: 360
+      lastFrame: 410
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: AoE
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 90
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: AoE2
+      takeName: Take 001
+      firstFrame: 160
+      lastFrame: 230
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: Attack1
+      takeName: Take 001
+      firstFrame: 241
+      lastFrame: 295
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: Attack2
+      takeName: Take 001
+      firstFrame: 300
+      lastFrame: 359
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .064000003
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

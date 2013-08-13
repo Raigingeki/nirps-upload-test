@@ -1,0 +1,8 @@
+.DS_Store
+Library
+Temp
+*.caproj
+*.pidb
+*.unityproj
+*.sln
+*.userprefs
